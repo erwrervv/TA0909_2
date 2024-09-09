@@ -1,0 +1,29 @@
+<div class="comments-section">
+  <!-- <h3>評論{{ (data$ | async)?.length }}</h3> -->
+  <div class="filter-bar">
+    <span>最佳</span> | <span>最新</span>
+  </div>
+  <div class="comment" *ngFor="let comment of comments">
+    <div class="comment-user-avatar">
+      <img [src]="comment.userAvatar" alt="User Avatar" />
+    </div>
+    <div class="comment-content">
+      <div class="comment-header">
+        <span class="username">{{ comment.username }}</span>
+        <span class="time">{{ comment.time | date: 'yyyy-MM-dd HH:mm' }}</span>
+      </div>
+      <p>{{ comment.content }}</p>
+      <div class="comment-actions">
+        <button (click)="likeComment(comment)">
+          <i class="fa fa-thumbs-up"></i> {{ comment.likes }}
+        </button>
+        <button (click)="replyComment(comment)">
+          <i class="fa fa-reply"></i> 回覆
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,55 @@
+<!-- 0 -->
+<!-- <h1>{{title}}</h1>
+<p>{{role ==='主管'?'主管功能':'一般功能'}}</p>
+<div>
+  <input [(ngModel)]="account">
+  <br>
+  <input [(ngModel)]="pwd">
+  <br>
+  <button (click)="comfirm($event)">確認送出</button>
+  <input [(ngModel)] ="memberCnt">
+  <p>登入人數 : {{memberCnt}}</p>
+</div> -->
+<!-- 0 -->
+<!-- 1 -->
+<h3>{{title1}}</h3>
+<div>
+  <p>帳號 :</p>
+  <input [disabled]="isDisable" [(ngModel)]="user.account">
+  <br>
+  <p>密碼 :</p>
+  <input [(ngModel)]="user.password">
+  <br>
+  <p>數字 :</p>
+  <input [(ngModel)]="inputaNumber">
+  <br>
+  <br>
+  <button (click)="submit()">送出</button>
+  <button (click)="clear()">清除</button>
+  <button (click)="switch()">切換</button>
+</div>
+
+<br>
+
+<table>
+  <tr>
+    <th>帳號</th>
+    <th>密碼</th>
+  </tr>
+  <tr>
+    <td>{{showUser.account}}</td>
+    <td>{{showUser.password}}</td>
+  </tr>
+</table>
+
+<!-- 1 -->
+<!-- (父) login.component.html -->
+<!-- <app-share-input [inputAccount]="inputAccount" [inputPwd]="inputPwd" [inputaNumber]="inputaNumber"(comfirmData)="comfirmData($event) "></app-share-input>
+<br> -->
+<!-- <app-share-input [inputAccount]="inputAccount" [inputPwd]="inputPwd" [inputaNumber]="inputaNumber"(comfirmData)="comfirmData($event) "></app-share-input> -->
+<br>
+<app-share-input
+[userinfo]="userinfo"
+(comfirmData)="comfirmData($event)"></app-share-input>
+<button (click)="ngOnChanges()">TestOnChanges</button>
+<button (click)="test()">test</button>

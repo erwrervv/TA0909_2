@@ -1,0 +1,75 @@
+<!-- 1 -->
+<p [ngStyle]="{'font-size': fontSize +'px'}">文章</p>
+
+<p [ngClass]="{'Red': isRed}">關注</p>
+
+<button (click)="changePopular()">熱門文章</button>
+<button (click)="changeNormal()">一般文章</button>
+
+<div *ngIf="isPopular">
+  <p>熱門文章列表</p>
+
+  <table border="1">
+    <tr>
+      <th>標題</th>
+      <th>內容</th>
+    </tr>
+    <tr *ngFor="let item of popularArticles">
+      <td (click)="test(item.title)">{{item.title}}</td>
+      <a [routerLink]="'signup/'+item.title"></a>
+      <td>{{item.content|articleContent}}</td>
+    </tr>
+  </table>
+</div>
+
+<div *ngIf="!isPopular">
+  <p>一般文章列表</p>
+
+  <table border="1">
+    <tr>
+      <th>標題</th>
+      <th>內容</th>
+    </tr>
+    <tr *ngFor="let item of normalArticles">
+      <td>{{item.title}}</td>
+      <td>{{item.content|articleContent}}</td>
+    </tr>
+  </table>
+</div>
+
+<br>
+<button (click)="addNewArticle()">新增文章</button>
+
+<div *ngIf="isPopular; else myElse">
+  <p>評論</p>
+</div>
+<div>
+  <ng-template #myElse>
+    <p>分享</p>
+  </ng-template>
+</div>
+
+<div [ngSwitch]="score">
+ <p *ngSwitchCase="10">一般</p>
+ <p *ngSwitchCase="50">好</p>
+ <p *ngSwitchCase="100">讚</p>
+ <p *ngSwitchDefault>預設</p>
+</div>
+
+
+<p [ngStyle]="{'font-size': fontSize +'px'}">{{'article' | uppercase }}</p>
+<p [ngStyle]="{'font-size': fontSize +'px'}">{{ nowDate | date }}</p> <!-- ts檔中 新增nowDate = new Date() -->
+<p [ngStyle]="{'font-size': fontSize +'px'}">{{ nowDate | date : 'shortDate' }}</p>
+<p [ngStyle]="{'font-size': fontSize +'px'}">{{ nowDate | date : 'fullDate' }}</p>
+<button [disabled]="isDisabled">Submit</button>
+<!-- 1 -->
+<p>原始价格：{{ price }}</p>
+<p>格式化后的价格：{{ price | currency:'USD':'symbol' }}</p>
+<p>当前日期：{{ today }}</p>
+<p>格式化后的日期：{{ today | date:'yyyy-MM-dd' }}</p>
+
+<p-editor [(ngModel)]="text" [style]="{ height: '320px'}"></p-editor>
+
+<!-- 2 -->
+
+<!-- 2 -->

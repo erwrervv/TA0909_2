@@ -1,0 +1,42 @@
+<div class="container">
+  <!-- 文章展示區域 -->
+  <div class="article-section">
+    <h1>{{ articleTitle }}</h1>
+    <div class="article-meta">
+      <span>{{ articleDate }}</span>
+      <span>{{ articleViews }} 觀看</span>
+
+    </div>
+    <div class="author-section">
+      <span class="author-name">{{ authorName }}</span>
+      <span class="author-info">{{ authorFollowers }} 粉絲 · {{ authorArticles }} 文章</span>
+      <button (click)="followAuthor()" class="follow-button">+ 關注</button>
+    </div>
+    <div class="article-image">
+      <img [src]="articleImage" alt="Article Image" />
+    </div>
+    <div class="article-content">
+      <p>{{ articleContent }}</p>
+    </div>
+    <div>
+      <span><button (click)="likes()" class="btn btn-sho"><i class="fa fa-thumbs-up"></i>{{ articleLikes }} 點讚</button></span>
+      <span>{{ articleComments }} 評論</span>
+    </div>
+  </div>
+
+  <!-- 推薦視頻列表 (仍然保留, 根據需求) -->
+  <div class="recommended-videos">
+    <h3>推薦視頻</h3>
+    <div *ngFor="let video of recommendedVideos" class="recommended-video-item">
+      <a [routerLink]="['/video', video.id]">
+        <img [src]="video.thumbnail" alt="Video Thumbnail" />
+        <p>{{ video.title }}</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- 評論區域 -->
+  <div class="comments-section">
+    <app-comment-list></app-comment-list>
+  </div>
+</div>
