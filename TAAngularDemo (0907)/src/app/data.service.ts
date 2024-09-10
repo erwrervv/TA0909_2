@@ -6,8 +6,7 @@ import { Articleoverviews } from './interfaces/articleoverview';
   providedIn: 'root'
 })
 export class DataService {
-  private Articleoverviews = 'https://localhost:7003/api/ArticleOverviews'; // 替换为你的实际 URL
- // 替换为你的实际 URL
+  private Articleoverviews = 'https://localhost:7003/api/ArticleOverviews';
 
   constructor(private http: HttpClient) { }
   getArticleById(id: number): Observable<any> {
