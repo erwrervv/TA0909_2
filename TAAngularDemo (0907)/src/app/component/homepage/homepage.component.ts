@@ -26,7 +26,7 @@ loading: TemplateRef<NgIfContext<any[] | null>> | null | undefined;
       switchMap(data => {
         // 获取所有图片的 Observable 数组
         const pictureRequests = data.map(item =>
-          this.dataService.getPicture(item.ArticleId).pipe(
+          this.dataService.getArticleOverviewsPicture(item.ArticleId).pipe(
             map(blob => {
               const reader = new FileReader();
               const promise = new Promise<string>((resolve, reject) => {

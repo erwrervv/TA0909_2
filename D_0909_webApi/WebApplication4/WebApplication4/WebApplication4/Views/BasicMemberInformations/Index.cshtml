@@ -13,6 +13,9 @@
     <thead class="table-secondary">
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.MemberuniqueId)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.MemberName)
             </th>
             <th>
@@ -46,6 +49,9 @@
         @foreach (var item in Model)
         {
             <tr>
+                <td class="tc">
+                    @Html.DisplayFor(modelItem => item.MemberuniqueId)
+                </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.MemberName)
                 </td>
@@ -81,8 +87,8 @@
                     @Html.DisplayFor(modelItem => item.Level.LevelId)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.MemberuniqueId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.MemberuniqueId">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@item.MemberuniqueId">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.MemberuniqueId">Details</a>
                     <a asp-action="Delete" asp-route-id="@item.MemberuniqueId">Delete</a>
                 </td>
             </tr>
@@ -100,6 +106,7 @@
         $(document).ready(function () {
             $("table").dataTable({
                 columns: [
+                    { "data": "MemberuniqueId", "width": "10%" },
                     { "data": "MemberName", "width": "10%" },
                     { "data": "Activate", "width": "8%" },
                     { "data": "Phone", "width": "10%" },

@@ -1,30 +1,213 @@
-<!-- <app-login></app-login> -->
-<!-- <app-article></app-article> -->
-<!-- <app-practice1></app-practice1> -->
+<!-- <a routerLink="article">前往文章</a>&nbsp;
+<a routerLink="articleoverview">前往articleoverview</a>&nbsp; -->
+<!-- <a routerLink="homepage">前往homepage</a>&nbsp; -->
 
-<!-- <app-practice2></app-practice2> -->
-<!-- <app-practice3></app-practice3> -->
-<!-- <app-signup></app-signup>
-  -->
-<a routerLink="login/:">登入</a>&nbsp;
-<a routerLink="signup/:id/:id2" [queryParams]="{'account':'222','id2':'1'}">註冊</a>&nbsp;
-<a routerLink="practice2">練習2</a>&nbsp;
-<a routerLink="practice3">練習3</a>&nbsp;
-<a routerLink="article">前往文章</a>&nbsp;
-<a routerLink="articleoverview">前往articleoverview</a>&nbsp;
-<a routerLink="homepage">前往homepage</a>&nbsp;
-<!-- <button (click)="goLogin()">前往登入</button>
-<button (click)="goSignUP()">前往註冊</button>
-<button (click)="goArticle()">前往文章</button>
-<p-button label="Primary" [rounded]="true"></p-button>
-<p-button label="Secondary" [rounded]="true" severity="secondary"></p-button>
-<p-button label="Success" [rounded]="true" severity="success"></p-button>
-<p-button label="Info" [rounded]="true" severity="info"></p-button>
-<p-button label="Warning" [rounded]="true" severity="warning"></p-button>
-<p-button label="Help" [rounded]="true" severity="help"></p-button>
-<p-button label="Danger" [rounded]="true" severity="danger"></p-button>
- -->
-<!-- <app-homepage></app-homepage> -->
-<!-- <app-home></app-home> -->
 
+
+
+  <!-- /End Preloader -->
+  <!-- Start Header Area -->
+  <header class="header navbar-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12">
+          <div class="nav-inner">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" routerLink="homepage" >
+                <img src="assets/images/homeicon200X100.png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul id="nav" class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a routerLink="homepage" class="active" aria-label="Toggle navigation">首頁</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class=" dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                      data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent" aria-expanded="false"
+                      aria-label="Toggle navigation">旅遊</a>
+                    <ul class="sub-menu collapse" id="submenu-1-3">
+                      <li class="nav-item"><a href="item-listing-grid.html">Ad Grid</a></li>
+                      <li class="nav-item"><a href="item-listing-list.html">Ad Listing</a></li>
+                      <li class="nav-item"><a href="~/cart/html/item-details.html">Ad Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class=" dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                      data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent" aria-expanded="false"
+                      aria-label="Toggle navigation">文章</a>
+                    <ul class="sub-menu collapse" id="submenu-1-4">
+                          <li class="nav-item"><a href="about-us.html">文章瀏覽</a></li>
+                          <li class="nav-item"><a href="~/cart/html/item-details.html">文章列表</a></li>
+                      <!-- <li class="single-block">
+                        <ul>
+                          <li class="mega-menu-title">Dashboard</li>
+                          <li class="nav-item">
+                            <a href="dashboard.html">Account Overview</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="profile-settings.html">My Profile</a>
+                          </li>
+                          <li class="nav-item"><a href="my-items.html">My Ads</a></li>
+                          <li class="nav-item">
+                            <a href="favourite-items.html">Favorite Ads</a>
+                          </li>
+                          <li class="nav-item"><a href="post-item.html">Ad post</a></li>
+                          <li class="nav-item">
+                            <a href="bookmarked-items.html">Bookmarked Ad</a>
+                          </li>
+                          <li class="nav-item"><a href="messages.html">Messages</a></li>
+                          <li class="nav-item">
+                            <a href="delete-account.html">Close account</a>
+                          </li>
+                          <li class="nav-item"><a href="invoice.html">Invoice</a></li>
+                        </ul>
+                      </li> -->
+                    </ul>
+                  </li>
+                </ul>
+              </div> <!-- navbar collapse -->
+              <div class="login-button">
+                <ul>
+                  <li>
+                    <a href="login.html"><i class="lni lni-enter"></i> 登入</a>
+                  </li>
+                  <li>
+                    <a href="registration.html"><i class="lni lni-user"></i> 註冊</a>
+                  </li>
+                </ul>
+              </div>
+            </nav> <!-- navbar -->
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </header>
+  <!-- End Header Area -->
+  <!-- Start Breadcrumbs -->
+  <div class="breadcrumbs ">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="breadcrumbs-content">
+            <h1 class="page-title">TRAVELY</h1>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <ul class="breadcrumb-nav">
+            <li><a href="index.html">首頁</a></li>
+            <li><a routerLink="articleoverview">前往articleoverview</a>旅遊</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 將內容放在共同框內 -->
 <router-outlet></router-outlet>
+
+  <!-- End Newsletter Area -->
+  <!-- Start Footer Area -->
+  <footer class="footer">
+    <!-- Start Footer Top -->
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Single Widget -->
+            <div class="single-footer mobile-app">
+              <h3>Mobile Apps</h3>
+              <div class="app-button">
+                <a href="javascript:void(0)" class="btn">
+                  <i class="lni lni-play-store"></i>
+                  <span class="text">
+                    <span class="small-text">Get It On</span>
+                    Google Play
+                  </span>
+                </a>
+                <a href="javascript:void(0)" class="btn">
+                  <i class="lni lni-apple"></i>
+                  <span class="text">
+                    <span class="small-text">Get It On</span>
+                    App Store
+                  </span>
+                </a>
+              </div>
+            </div>
+            <!-- End Single Widget -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Single Widget -->
+            <div class="single-footer f-link">
+              <h3>旅遊相關</h3>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <ul>
+                    <li><a href="javascript:void(0)"></a></li>
+                    <li><a href="javascript:void(0)"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Single Widget -->
+            <div class="single-footer f-link">
+              <h3>文章相關</h3>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <ul>
+                    <li><a href="javascript:void(0)">新增文章</a></li>
+                    <li><a href="javascript:void(0)">文章瀏覽</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Widget -->
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Single Widget -->
+
+            <!-- End Single Widget -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ End Footer Middle -->
+    <!-- Start Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="inner">
+          <div class="row">
+            <div class="col-12">
+              <div class="content">
+                <p class="copyright-text">
+                  <a target="_blank" href="" title=" "> </a>
+                </p>
+                <ul class="footer-social">
+                  <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer Middle -->
+  </footer>
+  <!--/ End Footer Area -->
+  <!-- ========================= scroll-top ========================= -->
+  <!-- <a href="#" class="scroll-top btn-hover">
+    <i class="lni lni-chevron-up"></i>
+  </a> -->

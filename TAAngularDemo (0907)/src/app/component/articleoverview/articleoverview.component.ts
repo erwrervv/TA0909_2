@@ -1,6 +1,10 @@
-import { Component , OnInit} from '@angular/core';
+import { NgIfContext } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
+import { forkJoin, Observable} from 'rxjs';
+import { Component, OnInit, TemplateRef } from '@angular/core';
+import { map, switchMap } from 'rxjs/operators';
 import { DataService } from 'src/app/data.service';
+import { Articleoverviews } from 'src/app/interfaces/articleoverview';
 
 @Component({
   selector: 'app-articleoverview',
@@ -8,61 +12,39 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./articleoverview.component.css']
 })
 export class ArticleoverviewComponent implements OnInit {
+  articleId: any;
+likes() {
+throw new Error('Method not implemented.');
+}
 
-  articleTitle = '開發日誌 | 3/30 機制再啟動';
-  articleDate = '2021年04月14日 05:28';
-  articleViews = '2.4萬';
-  articleLikes = 104000;
-  articleComments = '--';
-  authorName = '漢化';
-  authorFollowers = '2.4萬';
-  authorArticles = '303';
-  articleImage = 'assets/article-image-placeholder.png'; // 替換為實際圖片路徑
-  articleContent = `Europa Universalis IV - 30th of March 2021
-Johan, Studio Manager Paradox Tinto`;
-  article: any;
-
+  imageUrls: { [key: number]: string } = {};
   constructor(
     private route: ActivatedRoute,
     private dataService: DataService
-  ) { }
+  ) {}
+
+
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      const articleId = +params.get('id')!; // 使用非空断言
-      this.dataService.getArticleById(articleId).subscribe(data => {
-        this.article = data; // 根据 articleId 获取数据
-      });
+      const id = +params.get('id')!;
+      this.loadArticle(id);
     });
   }
 
-  likes(): void {
-    this.articleLikes++;
+  loadArticle(id: number): void {
+    this.dataService.getArticleById(id).subscribe(data => {
+      this.articleId = data;
+      if (data.ArticleCoverImage) {
+        this.imageUrls[data.ArticleId] = `data:image/png;base64,${data.ArticleCoverImage}`;
+      }
+    });
   }
 
-  subscribeChannel(): void {
-    console.log('訂閱頻道');
-  }
+  // likes(): void {
+  //   this.articleId.ArticleLikes++;
+  // }
 
   followAuthor(): void {
     console.log('已關注作者');
   }
-  recommendedVideos = [
-    {
-      id: 1,
-      title: '推薦文章1',
-      thumbnail: 'assets/video-thumbnail1.jpg'
-    },
-    {
-      id: 2,
-      title: '推薦文章2',
-      thumbnail: 'assets/video-thumbnail2.jpg'
-    },
-    {
-      id: 3,
-      title: '推薦文章3',
-      thumbnail: 'assets/video-thumbnail3.jpg'
-    }
-
-  ];
-
 }

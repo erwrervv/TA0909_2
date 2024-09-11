@@ -3,36 +3,68 @@
   "WorkspaceRootPath": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\controllers\\basicmemberinformationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\basicmemberinformationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\controllers\\articleoverviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\articleoverviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\controllers\\basicmemberinformationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\basicmemberinformationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\viewmodels\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewmodels\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\viewmodels\\articleoverviewsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewmodels\\articleoverviewsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\models\\finalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\finalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\views\\basicmemberinformations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\basicmemberinformations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\views\\articleoverviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\articleoverviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\controllers\\articleoverviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\articleoverviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\viewmodels\\articleoverviewsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewmodels\\articleoverviewsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\views\\articleoverviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\articleoverviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\models\\finalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\finalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60F67031-C63B-4D6C-9C1D-4435C075E2A6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\models\\articleoverview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\views\\articleoverviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\articleoverviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -93,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\views\\articleoverviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\articleoverviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\controllers\\homepagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,10 +151,6 @@
       "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\comments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\views\\basicmemberinformations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\views\\basicmemberinformations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|c:\\0000_angular\\ta0909_2\\ta0909_2\\d_0909_webapi\\webapplication4\\webapplication4\\webapplication4\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CA9B6AB-ACD0-429C-8B97-649F0DD019CA}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -153,7 +173,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 454,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -161,20 +181,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasicMemberInformationsController.cs",
+              "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Controllers\\BasicMemberInformationsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BasicMemberInformationsController.cs",
+              "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Controllers\\BasicMemberInformationsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\BasicMemberInformationsController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwCUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:35:11.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Comment.cs",
+              "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Models\\Comment.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Comment.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T14:24:45.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentModel.cs",
+              "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\ViewModels\\CommentModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ViewModels\\CommentModel.cs",
+              "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\ViewModels\\CommentModel.cs",
+              "RelativeToolTip": "WebApplication1\\ViewModels\\CommentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T14:12:03.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BasicMemberInformationsController.cs",
+              "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Controllers\\BasicMemberInformationsController.cs",
+              "RelativeDocumentMoniker": "WebApplication4\\Controllers\\BasicMemberInformationsController.cs",
+              "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Controllers\\BasicMemberInformationsController.cs",
+              "RelativeToolTip": "WebApplication4\\Controllers\\BasicMemberInformationsController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAgwLIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T14:11:46.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\BasicMemberInformations\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication4\\Views\\BasicMemberInformations\\Index.cshtml",
+              "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\BasicMemberInformations\\Index.cshtml",
+              "RelativeToolTip": "WebApplication4\\Views\\BasicMemberInformations\\Index.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAcwGwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T14:11:30.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CommentsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T14:10:57.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ArticleOverviewsModel.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\ViewModels\\ArticleOverviewsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\ViewModels\\ArticleOverviewsModel.cs",
               "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\ViewModels\\ArticleOverviewsModel.cs",
               "RelativeToolTip": "WebApplication1\\ViewModels\\ArticleOverviewsModel.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T10:54:24.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "WebApplication4.csproj",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
               "RelativeDocumentMoniker": "WebApplication4\\WebApplication4.csproj",
@@ -186,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
@@ -199,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "ArticleOverview.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Models\\ArticleOverview.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Models\\ArticleOverview.cs",
@@ -211,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "ArticleRepository.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Models\\ArticleRepository.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Models\\ArticleRepository.cs",
@@ -223,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "ArticleList.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Models\\ArticleList.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Models\\ArticleList.cs",
@@ -235,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication4\\appsettings.json",
@@ -247,20 +345,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ArticleOverviewsController.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Controllers\\ArticleOverviewsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ArticleOverviewsController.cs",
               "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Controllers\\ArticleOverviewsController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\ArticleOverviewsController.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAUwJYAAAABAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwBcAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T09:30:33.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -272,32 +370,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T09:26:23.541Z"
+              "WhenOpened": "2024-09-03T09:26:23.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "FinalContext.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Models\\FinalContext.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\FinalContext.cs",
               "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Models\\FinalContext.cs",
               "RelativeToolTip": "WebApplication1\\Models\\FinalContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAArwBcAAAAoAAAA",
+              "ViewState": "AQIAACEBAAAAAAAAAAAAwDEBAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T09:26:09.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
@@ -309,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
@@ -317,12 +416,11 @@
               "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAAEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-03T08:56:04.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T08:56:04.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication1\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
@@ -330,12 +428,11 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T08:52:20.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T08:52:20.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "item-details.html",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\wwwroot\\cart\\html\\item-details.html",
               "RelativeDocumentMoniker": "WebApplication4\\wwwroot\\cart\\html\\item-details.html",
@@ -347,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "item_details.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\Home\\item_details.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\Home\\item_details.cshtml",
@@ -359,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "_PicturePartial.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\Home\\_PicturePartial.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\Home\\_PicturePartial.cshtml",
@@ -371,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "HomePageController.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Controllers\\HomePageController.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Controllers\\HomePageController.cs",
@@ -383,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\ArticleOverviews\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\ArticleOverviews\\Edit.cshtml",
@@ -395,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "cartpage.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\Home\\cartpage.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\Home\\cartpage.cshtml",
@@ -407,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\Shared\\_Layout.cshtml",
@@ -419,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Controllers\\HomeController.cs",
@@ -431,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\Home\\Index.cshtml",
@@ -443,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\ArticleRepositories\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\ArticleRepositories\\Index.cshtml",
@@ -455,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "_PicturePartial.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\Api\\_PicturePartial.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\Api\\_PicturePartial.cshtml",
@@ -467,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\HomePage\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\HomePage\\Index.cshtml",
@@ -479,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "_ArticleCoverImagePartial.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\HomePage\\_ArticleCoverImagePartial.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\HomePage\\_ArticleCoverImagePartial.cshtml",
@@ -491,19 +588,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\ArticleOverviews\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\ArticleOverviews\\Index.cshtml",
               "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\ArticleOverviews\\Index.cshtml",
               "RelativeToolTip": "WebApplication4\\Views\\ArticleOverviews\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAIBJwDAAAAAUAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T15:51:21.955Z"
+              "WhenOpened": "2024-08-21T15:51:21.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -515,19 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\BasicMemberInformations\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication4\\Views\\BasicMemberInformations\\Index.cshtml",
-              "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\BasicMemberInformations\\Index.cshtml",
-              "RelativeToolTip": "WebApplication4\\Views\\BasicMemberInformations\\Index.cshtml",
-              "ViewState": "AQIAAGAAAAAAAAAAAIBJwGoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T01:37:23.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "BasicMemberInformationMetadata.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\PartialClass\\BasicMemberInformationMetadata.cs",
               "RelativeDocumentMoniker": "WebApplication4\\PartialClass\\BasicMemberInformationMetadata.cs",
@@ -539,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Controllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Controllers\\CommentsController.cs",
@@ -551,32 +637,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ArticleOverviewsController.cs",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Controllers\\ArticleOverviewsController.cs",
               "RelativeDocumentMoniker": "WebApplication4\\Controllers\\ArticleOverviewsController.cs",
               "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Controllers\\ArticleOverviewsController.cs",
               "RelativeToolTip": "WebApplication4\\Controllers\\ArticleOverviewsController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAqwDkAAAAAAAAA",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAswDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T17:52:38.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\ArticleOverviews\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\ArticleOverviews\\Create.cshtml",
               "ToolTip": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\ArticleOverviews\\Create.cshtml",
               "RelativeToolTip": "WebApplication4\\Views\\ArticleOverviews\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAIBJwBkAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T17:51:50.328Z"
+              "WhenOpened": "2024-08-20T17:51:50.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\Comments\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\Comments\\Create.cshtml",
@@ -588,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\0000_angular\\TA0909_2\\TA0909_2\\D_0909_webApi\\WebApplication4\\WebApplication4\\WebApplication4\\Views\\Comments\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication4\\Views\\Comments\\Index.cshtml",

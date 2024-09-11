@@ -1,19 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HomepageComponent } from './component/homepage/homepage.component';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { ArticleComponent } from './article/article.component';
-import { Practice1Component } from './practice1/practice1.component';
-import { Practice2Component } from './practice2/practice2.component';
-import { Practice3Component } from './practice3/practice3.component';
-import { ShareInputComponent } from './share-input/share-input.component';
-import { SignupComponent } from './signup/signup.component';
-import { UserService } from './user.service';
 import { HttpClientModule } from '@angular/common/http';
-import { ArticleContentPipe } from './article-content.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DropdownModule } from 'primeng/dropdown';
 import { TreeSelectModule } from 'primeng/treeselect';
@@ -33,14 +23,6 @@ import { LogintaComponent } from './component/loginta/loginta.component';
   declarations: [
     HomepageComponent,
     AppComponent,
-    LoginComponent,
-    ArticleComponent,
-    Practice1Component,
-    ShareInputComponent,
-    Practice2Component,
-    ArticleContentPipe,
-    SignupComponent,
-    Practice3Component,
     ArticleoverviewComponent,
     HomeComponent,
     CommentListComponent,
@@ -64,7 +46,7 @@ import { LogintaComponent } from './component/loginta/loginta.component';
     FormsModule,
     EditorModule,
   ],
-  providers: [UserService,DataService],
+  providers: [DataService],
   bootstrap: [AppComponent],
 })
 export class AppModule { }

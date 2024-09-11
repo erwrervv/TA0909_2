@@ -75,11 +75,11 @@ namespace WebApplication1.Controllers
                     return NotFound();
                 }
 
-                return Ok(articleOverview); // 返回状态码 200 和 JSON 数据
+                return Ok(articleOverview); 
             }
             catch (Exception ex)
             {
-                // 记录异常
+                // 記錄錯誤
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }

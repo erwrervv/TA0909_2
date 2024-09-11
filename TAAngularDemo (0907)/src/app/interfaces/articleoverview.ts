@@ -1,3 +1,5 @@
+import { BasicMemberInformation } from './basicMemberInformation';
+
 export interface Articleoverviews {
   ArticleId: number;
   // MemberName?:string;
@@ -8,7 +10,4 @@ export interface Articleoverviews {
   UpdateTime?: Date;
   ArticleCoverImage?: Uint8Array;
   ArticleCoverImageString?: string;
-}
-export interface BasicMemberInformation {
-  MemberName: string;
 }
