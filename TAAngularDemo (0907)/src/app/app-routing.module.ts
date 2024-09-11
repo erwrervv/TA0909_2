@@ -4,16 +4,14 @@ import { ArticleoverviewComponent } from './component/articleoverview/articleove
 import { HomepageComponent } from './component/homepage/homepage.component';
 import { HomeComponent } from './component/home/home.component';
 
-const routes: Routes = [{
+const routes: Routes = [
+{
+  path: '', redirectTo: '/homepage', pathMatch: 'full'
+}
+,{
   path:'homepage/:',
   component:HomepageComponent,
 }
-// ,{ path:'login/:',
-//   component:LoginComponent,
-// },{
-//   path:'signup/:id/:id2',
-//   component:SignupComponent,
-// }
 ,
 {
   path:'articleoverview/:id',
@@ -28,3 +26,5 @@ const routes: Routes = [{
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
