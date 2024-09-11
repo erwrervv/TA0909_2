@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models;
-
+using WebApplication1.ViewModels;
 namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
@@ -43,8 +43,18 @@ namespace WebApplication1.Controllers
         {
             try
             {
-                var articles = await _context.ArticleOverviews.ToListAsync();
-                return Ok(articles); // 返回状态码 200 和 JSON 数据
+                var articles = await _context.ArticleOverviews.Include(x=>x.Memberunique).Select(x=> new ArticleOverviewsModel
+                {
+                    ArticleId = x.ArticleId,
+                    ArticleName = x.ArticleName,
+                    ArticleContent = x.ArticleContent,
+                    MemberName = x.Memberunique.MemberName,
+                    ArticleCoverImage = x.ArticleCoverImage,
+                    CreateTime = x.CreateTime,
+                    UpdateTime = x.UpdateTime,
+                    
+                }).ToListAsync();
+                return Ok(articles); 
             }
             catch (Exception ex)
             {
@@ -52,7 +62,6 @@ namespace WebApplication1.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
-
 
         [HttpGet("{id}")]
         public async Task<ActionResult<ArticleOverview>> GetArticleOverview(int id)
@@ -133,7 +142,7 @@ namespace WebApplication1.Controllers
 
             return NoContent();
         }
-
+        [NonAction]
         private bool ArticleOverviewExists(int id)
         {
             return _context.ArticleOverviews.Any(e => e.ArticleId == id);

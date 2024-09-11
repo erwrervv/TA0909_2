@@ -29,9 +29,6 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
-        public void GetUser()
-        {
-            //var temp dbContext.user.where(XmlConfigurationExtensions=>)
-        }
+
     }
 }

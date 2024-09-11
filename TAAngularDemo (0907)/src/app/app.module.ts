@@ -28,6 +28,7 @@ import { ArticlePostComponent } from './component/article-post/article-post.comp
 import { ButtonModule } from 'primeng/button';
 import { EditorModule } from 'primeng/editor';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LogintaComponent } from './component/loginta/loginta.component';
 @NgModule({
   declarations: [
     HomepageComponent,
@@ -44,7 +45,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     CommentListComponent,
     ArticleListComponent,
-    ArticlePostComponent
+    ArticlePostComponent,
+    LogintaComponent
   ],
   imports: [
     BrowserModule,
