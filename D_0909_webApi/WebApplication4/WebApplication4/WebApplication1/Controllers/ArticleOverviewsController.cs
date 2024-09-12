@@ -133,7 +133,7 @@ namespace WebApplication1.Controllers
 
             return NoContent();
         }
-
+        [NonAction]
         private bool ArticleOverviewExists(int id)
         {
             return _context.ArticleOverviews.Any(e => e.ArticleId == id);
