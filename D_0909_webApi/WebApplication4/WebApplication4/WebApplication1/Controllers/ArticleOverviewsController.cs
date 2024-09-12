@@ -21,6 +21,7 @@ namespace WebApplication1.Controllers
         }
 
         //------------tes------------------
+        //https://localhost:7003/api/ArticleOverviews/GetPicture/13
         // GET: api/ArticleOverviews/GetPicture/5
         [HttpGet("GetPicture/{id}")]
         public async Task<IActionResult> GetPicture(int id)

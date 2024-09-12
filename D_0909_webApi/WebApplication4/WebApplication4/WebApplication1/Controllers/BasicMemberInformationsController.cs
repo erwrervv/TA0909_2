@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models;
-
+using WebApplication1.ViewModels;
 namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
