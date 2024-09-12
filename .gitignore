@@ -115,3 +115,4 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+/D_0909_webApi/WebApplication4/WebApplication4/.vs/WebApplication4
