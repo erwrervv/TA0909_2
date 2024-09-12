@@ -21,6 +21,7 @@ namespace WebApplication1.Controllers
             _context = context;
         }
         //------------tes------------------
+        //https://localhost:7003/api/Comments/GetPicture/13
         // GET: api/Comments/GetPicture/5
         [HttpGet("GetPicture/{id}")]
         public async Task<IActionResult> GetPicture(int id)
@@ -36,30 +37,64 @@ namespace WebApplication1.Controllers
             string mimeType = "image/png"; // 根據圖片後綴調整
             return File(Comments.Memberunique.MemberPicture, mimeType);
         }
+        //// GET: api/Comments
+        //[HttpGet]
+        //public async Task<ActionResult<IEnumerable<Comment>>> GetComments()
+        //{
+        //    try
+        //    {
+        //        var Comment = await _context.Comments.Include(x => x.Memberunique).Select(x => new CommentModel
+        //        {
+        //            CommentId = x.CommentId,
+        //            ArticleName = x.Article.ArticleName,
+        //            CommentContent = x.CommentContent,
+        //            CommentDateTime = x.CommentDateTime,
+        //            MemberName = x.Memberunique.MemberName,
+        //            MemberPicture = x.Memberunique.MemberPicture,
+
+        //        }).ToListAsync();
+        //        return Ok(Comment);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // 記錄錯誤
+        //        return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+        //    }
+        //}
+        //---- test GET: api/Comments
         // GET: api/Comments
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Comment>>> GetComments()
+        public async Task<ActionResult<IEnumerable<CommentModel>>> GetComments([FromQuery] int articleId)
         {
             try
             {
-                var Comment = await _context.Comments.Include(x => x.Memberunique).Select(x => new CommentModel
-                {
-                    CommentId = x.CommentId,
-                    ArticleName = x.Article.ArticleName,
-                    CommentContent = x.CommentContent,
-                    CommentDateTime = x.CommentDateTime,
-                    MemberName = x.Memberunique.MemberName,
-                    MemberPicture = x.Memberunique.MemberPicture,
+                var comments = await _context.Comments
+                    .Include(c => c.Memberunique) // 加載會員數據
+                    .Include(c => c.Article) // 加載文章數據
+                    .Where(c => c.Article.ArticleId == articleId) // 獲得特定 ArticleId的評論
+                    .Select(c => new CommentModel
+                    {
+                        //CommentId = c.CommentId,
+                        //ArticleName = c.Article.ArticleName,
+                        CommentContent = c.CommentContent,
+                        CommentDateTime = c.CommentDateTime,
+                        MemberName = c.Memberunique.MemberName,
+                        MemberPicture = c.Memberunique.MemberPicture,
+                    })
+                    .ToListAsync();
 
-                }).ToListAsync();
-                return Ok(Comment);
+                return Ok(comments);
             }
             catch (Exception ex)
             {
-                // 記錄錯誤
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                // 可以使用 _logger 記錄異常
+                return StatusCode(StatusCodes.Status500InternalServerError, $"發生錯誤: {ex.Message}");
             }
         }
+        //---- test GET: api/Comments
+        // GET: api/Comments
+
+        //------
 
         // GET: api/Comments/5
         [HttpGet("{id}")]
@@ -74,7 +109,9 @@ namespace WebApplication1.Controllers
 
             return comment;
         }
+        //---------test[HttpGet("{id}")]*------
 
+        //---------test[HttpGet("{id}")]*------
         // PUT: api/Comments/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
